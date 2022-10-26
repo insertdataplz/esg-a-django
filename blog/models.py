@@ -5,5 +5,3 @@ class Post(models.Model):
     content = models.TextField()
     created_at = models.DateTimeField()
     
-    def __str__(self):
-        return f'[{self.pk}]{self.title}'
