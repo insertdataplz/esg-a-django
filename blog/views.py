@@ -1,6 +1,6 @@
 from django.shortcuts import render, redirect
 from blog.models import Post, Restaurant
-from django.views.generic import CreateView
+# from django.views.generic import CreateView
 from blog.forms import PostForm, RestaurantForm
 
 def index(request):

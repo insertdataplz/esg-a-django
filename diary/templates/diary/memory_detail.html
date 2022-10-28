@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ memory.title }} - Diary</title>
+</head>
+<body>
+    <h1>{{ memory.title }}</h1>
+    <h4>{{ memory.created_at }}</h4>
+    <p>{{ memory.content }}</p>
+    <hr/>
+    <a href="/diary/edit/">Edit</a>
+    <a href="/diary/{{ memory.pk }}/delete/">Delete</a>
+    <a href="/diary/">Go to list</a>
+</body>
+</html>
